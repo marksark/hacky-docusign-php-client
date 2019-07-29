@@ -280,6 +280,7 @@ class ObjectSerializer
             }
             $instance = new $class();
             foreach ($instance::swaggerTypes() as $property => $type) {
+                if ($type ==='Number') $type = '\DocuSign\eSign\Model\Number';
                 $propertySetter = $instance::setters()[$property];
 
                 if (!isset($propertySetter) || !isset($data->{$instance::attributeMap()[$property]})) {
