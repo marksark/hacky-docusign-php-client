@@ -1,4 +1,4 @@
-## Note: This is a poorly mainted fork. It was made to address issues in the original repo that are opened/unresolved :disappointed:
+## Note: This is a poorly maintained fork. It was made to address issues in the original repo that are opened/unresolved :disappointed:
 # The Official DocuSign PHP Client 
 
 [![Build status][travis-image]][travis-url]
